@@ -1,0 +1,4 @@
+CodeAlpha Artificial Intelligence Internship
+Task 2: Chatbot for FAQs
+Author: Ayman Boufounas
+Approach: NLP preprocessing + TF-IDF + cosine similarity
