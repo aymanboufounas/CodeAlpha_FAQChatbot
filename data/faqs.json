@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is CodeAlpha?",
+    "answer": "CodeAlpha is a software development company that offers internship opportunities and practical project-based learning in technology domains."
+  },
+  {
+    "question": "How many tasks do I need to complete?",
+    "answer": "You should complete at least 2 or 3 tasks from the assigned task list, depending on your internship requirements."
+  },
+  {
+    "question": "Where should I upload my project?",
+    "answer": "Upload your complete source code to GitHub in a repository named using the format CodeAlpha_ProjectName."
+  },
+  {
+    "question": "How do I submit my completed task?",
+    "answer": "Submit the completed task through the official submission form shared by CodeAlpha, usually in the internship WhatsApp group."
+  },
+  {
+    "question": "Do I need to post my project on LinkedIn?",
+    "answer": "Yes. CodeAlpha asks interns to post a video explanation of the project on LinkedIn and include the GitHub repository link."
+  },
+  {
+    "question": "Will I receive a certificate?",
+    "answer": "Eligible interns can receive a completion certificate after meeting the internship completion criteria and submitting the required projects."
+  },
+  {
+    "question": "Can I get a letter of recommendation?",
+    "answer": "A letter of recommendation may be provided based on your performance during the internship."
+  },
+  {
+    "question": "What programming language is used in this chatbot?",
+    "answer": "This chatbot is built with Python."
+  },
+  {
+    "question": "How does this chatbot understand my question?",
+    "answer": "The chatbot preprocesses your text, converts it into TF-IDF vectors, and uses cosine similarity to find the closest matching FAQ."
+  },
+  {
+    "question": "Does this chatbot use ChatGPT or an external AI API?",
+    "answer": "No. This version works locally using NLP preprocessing, TF-IDF vectorization, and cosine similarity."
+  },
+  {
+    "question": "What is TF-IDF?",
+    "answer": "TF-IDF is a numerical technique that measures how important a word is in a document compared with a collection of documents."
+  },
+  {
+    "question": "What is cosine similarity?",
+    "answer": "Cosine similarity measures how similar two text vectors are by comparing the angle between them. A higher score means the texts are more similar."
+  },
+  {
+    "question": "Can I add more questions to the chatbot?",
+    "answer": "Yes. Add new question and answer objects to data/faqs.json, then restart the application."
+  },
+  {
+    "question": "Does the chatbot work offline?",
+    "answer": "Yes. After the required Python packages are installed, the chatbot can run offline because it does not call an external API."
+  },
+  {
+    "question": "What happens if the chatbot does not understand my question?",
+    "answer": "If no FAQ is similar enough, the chatbot asks you to rephrase your question instead of returning an unreliable answer."
+  },
+  {
+    "question": "How can I run the chatbot?",
+    "answer": "Install the requirements with pip install -r requirements.txt and then run python app.py."
+  },
+  {
+    "question": "Which NLP library is used?",
+    "answer": "The project uses NLTK for stemming and text preprocessing, together with scikit-learn for TF-IDF and cosine similarity."
+  },
+  {
+    "question": "Can I change the similarity threshold?",
+    "answer": "Yes. Change the DEFAULT_THRESHOLD value in chatbot.py. A higher value makes the chatbot more strict."
+  },
+  {
+    "question": "Can this chatbot answer any question?",
+    "answer": "No. It is an FAQ chatbot, so it answers questions that are sufficiently similar to the FAQs stored in its dataset."
+  },
+  {
+    "question": "Is there a graphical user interface?",
+    "answer": "Yes. The application includes a simple desktop chat interface built with Tkinter."
+  }
+]
